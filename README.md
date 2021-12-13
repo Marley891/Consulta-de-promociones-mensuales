@@ -1,120 +1,67 @@
 # Consulta-de-promociones-mensuales
-Consulta web de Promociones Mensuales para empresa de refacciones. 
+Consulta web de promociones mensuales con existencia en tiempo real para el departamento de ventas de refacciones.
 
-Descripcion
-Es una herramienta para poder visualizar las promociones mensuales a través de un reporte Ador web, desarrollada en lenguaje PHP con el objetivo de poder visualisar en tiempo real las promociones y las existencias para dar un mejor servicio al cliente y poder incrementar el ticket promedio.
+Comenzando 🚀
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-Problema identificado
-El problema que se identifica es que en el departamento de ventas no pueden visualizar las promociones en tiempo real, lo que conlleva a no aumentar el ticket promedio ya que no se le da la la difusión adecuada. Otro problema es que no se puede saber las existencias en tiempo real y esto nos ocasiona en que se oferte una promoción y no se le pueda cumplir al cliente porque no se tiene existencia.
+Mira Deployment para conocer como desplegar el proyecto.
 
+Pre-requisitos 📋
+Que cosas necesitas para instalar el software y como instalarlas
 
-Tabla de contenidos
+Da un ejemplo
+Instalación 🔧
+Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose
 
-Requerimientos
-Lectura de archivos “.CVS”
-Compatibilidad con Safari, Chrome, Firefox e Internet explorer.
-Visualización de información
-Opción de agregar información desde el software
-Buscar por categoría
-Agregar y modificar la información
-Guardar los cambios
-Generar reportes
-Exportar a Excel
-Imprimir reporte
-Diseño
+Dí cómo será ese paso
 
-Login.
-Interfaz para visualizar las opciones de reporteador.
-imagen de alta calidad con promoción
-Ventana de reporte.fecha de vencimiento
-Interfaz para buscar y filtrar existencias por almacén
-descarga de reporte cvs
+Da un ejemplo
+Y repite
 
+hasta finalizar
+Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
 
+Ejecutando las pruebas ⚙️
+Explica como ejecutar las pruebas automatizadas para este sistema
 
-En este software no se utiliza una base de datos como tal, ya que se importaran las hojas de excel en donde tienen toda la informacion y el software las leera y con eso se cargara y se visualizara de forma ordenenada la informacion para poder trabajar con ella
-Instalacion
-Descargar el proyecto del repositorio
-Descomprimir el archivo para obtener la carpeta del proyecto
-Abrimos la carpeta del proyecto
-Abrimos la carpeta de bin en la cual encontraremos el archivo .jar
-Iniciamos el ejecutable
-Como es un .jar el software no se instala, solo se ejecuta en el ambiente de JAVA por eso es importante que tengamos la ultima version de java instalada en nuestro equipo
+Analice las pruebas end-to-end 🔩
+Explica que verifican estas pruebas y por qué
 
-Configuracion
-Solo necesitamos tener la ultima verión de nuestro navegador web
-Obtenemos la plantilla de excele para que podamos pasar la informacion que necesitamos
-Configuramos nuestra base de datos en la plantlla de excel del software y la cargamos
-Cargamos las imagenes con las promociones mensuales.
-Uso
-El software será para uso interno del departamento de ventas con niveles de usuario con lo que cada uno va tener permiso de acuerdo con sus responsabilidades, se instalará en cada uno de los usuarios del areá comercial  que pueda hacer uso del mismo.
+Da un ejemplo
+Y las pruebas de estilo de codificación ⌨️
+Explica que verifican estas pruebas y por qué
 
-El usuario administrador (Sistemas y Mercadotecnia), tendra una cuenta diferete con al cual tendra acceso a poder hacer modificaciones y todos los cambios necesarios.
+Da un ejemplo
+Despliegue 📦
+Agrega notas adicionales sobre como hacer deploy
 
-Contribucion
-Abrimos el repositorio
-Link del repositorio # Consulta-de-promociones-mensuales
-Consulta web de Promociones Mensuales para empresa de refacciones. 
-Descripcion
-Es una herramienta para poder visualizar las promociones mensuales a través de un reporte Ador web, desarrollada en lenguaje PHP con el objetivo de poder visualisar en tiempo real las promociones y las existencias para dar un mejor servicio al cliente y poder incrementar el ticket promedio.
-Problema identificado
-El problema que se identifica es que en el departamento de ventas no pueden visualizar las promociones en tiempo real, lo que conlleva a no aumentar el ticket promedio ya que no se le da la la difusión adecuada. Otro problema es que no se puede saber las existencias en tiempo real y esto nos ocasiona en que se oferte una promoción y no se le pueda cumplir al cliente porque no se tiene existencia.
+Construido con 🛠️
+Menciona las herramientas que utilizaste para crear tu proyecto
 
+Dropwizard - El framework web usado
+Maven - Manejador de dependencias
+ROME - Usado para generar RSS
+Contribuyendo 🖇️
+Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-Tabla de contenidos
+Wiki 📖
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
 
-Requerimientos
-Lectura de archivos “.CVS”
-Compatibilidad con Safari, Chrome, Firefox e Internet explorer.
-Visualización de información
-Opción de agregar información desde el software
-Buscar por categoría
-Agregar y modificar la información
-Guardar los cambios
-Generar reportes
-Exportar a Excel
-Imprimir reporte
-Diseño
+Versionado 📌
+Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
 
-Login.
-Interfaz para visualizar las opciones de reporteador.
-imagen de alta calidad con promoción
-Ventana de reporte.fecha de vencimiento
-Interfaz para buscar y filtrar existencias por almacén
-descarga de reporte cvs
+Autores ✒️
+Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 
+Andrés Villanueva - Trabajo Inicial - villanuevand
+Fulanito Detal - Documentación - fulanitodetal
+También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
 
+Licencia 📄
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
 
-En este software no se utiliza una base de datos como tal, ya que se importaran las hojas de excel en donde tienen toda la informacion y el software las leera y con eso se cargara y se visualizara de forma ordenenada la informacion para poder trabajar con ella
-Instalacion
-Descargar el proyecto del repositorio
-Descomprimir el archivo para obtener la carpeta del proyecto
-Abrimos la carpeta del proyecto
-Abrimos la carpeta de bin en la cual encontraremos el archivo .jar
-Iniciamos el ejecutable
-Como es un .jar el software no se instala, solo se ejecuta en el ambiente de JAVA por eso es importante que tengamos la ultima version de java instalada en nuestro equipo
-
-Configuracion
-Solo necesitamos tener la ultima verión de nuestro navegador web
-Obtenemos la plantilla de excele para que podamos pasar la informacion que necesitamos
-Configuramos nuestra base de datos en la plantlla de excel del software y la cargamos
-Cargamos las imagenes con las promociones mensuales.
-Uso
-El software será para uso interno del departamento de ventas con niveles de usuario con lo que cada uno va tener permiso de acuerdo con sus responsabilidades, se instalará en cada uno de los usuarios del areá comercial  que pueda hacer uso del mismo.
-
-El usuario administrador (Sistemas y Mercadotecnia), tendra una cuenta diferete con al cual tendra acceso a poder hacer modificaciones y todos los cambios necesarios.
-
-Contribucion
-Abrimos el repositorio 
-Link del repositorio https://github.com/Marley891/Consulta-de-promociones-mensuales.git
-En el branch "master" podemos encontrar la version mas actual del software y la mas completa y estable
-
-Roadmap
-Con forme se vay implementeando la aplicacion web dentro de la empresa y con la experiencia de los usuarios del area de ventas, podremos identificar errores y areás de mejora que nos podran notificar para mejorar el software. Se planea sacar actualizciones y mejoras del software cada 3 meses hasta que lleguemos a la version estable .
-
-Créditos
-Desarrollado por:
-
- Antonio Sánchez Caro en colaboración con el Ing. Pablo Lara
-En el branch "master" podemos encontrar la version mas actual del software y la mas completa y estable
-
+Expresiones de Gratitud 🎁
+Comenta a otros sobre este proyecto 📢
+Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+Da las gracias públicamente 🤓.
+etc.
